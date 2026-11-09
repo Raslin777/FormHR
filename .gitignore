@@ -1,0 +1,39 @@
+*.iml
+.gradle/
+.idea/
+/local.properties
+/build/
+/captures/
+.externalNativeBuild/
+.cxx/
+app/build/
+
+# Local caches and diagnostic captures
+.kotlin/
+**/build/
+/watch-screen*.png
+*.log
+*.hprof
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+local.properties
+key.properties
+keystore.properties
+secrets.properties
+credentials.json
+service-account*.json
+google-services.json
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.key
+
+# Packaged builds
+*.apk
+*.aab
+*.apks
